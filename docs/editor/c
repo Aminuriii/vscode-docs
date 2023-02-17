@@ -1,0 +1,19 @@
+ = sum / 5;
+    printf("average of 5 n    o. is : %f",avg);
+#include <stdio.h>
+void main()
+{
+   int a = 1;
+   float sum,avg,numbers;
+   sum = 0;
+
+   while(a<=5)
+   {
+      scanf("%f",&numbers);
+
+      sum = sum + numbers;
+      a++;
+   }
+   avg = sum / 5;
+   printf("average of 5 no. is : %f",avg);
+}
